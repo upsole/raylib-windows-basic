@@ -12,12 +12,12 @@ Generated files are placed in bin.
 ## vcspkg
 This is literally the first lib manager i use for Windows so maybe there are better options out there. 
 How to:
-    * https://vcpkg.io/en/getting-started
-    * https://github.com/raysan5/raylib/wiki/Working-on-Windows
+    *https://vcpkg.io/en/getting-started
+    *https://github.com/raysan5/raylib/wiki/Working-on-Windows
 
 ## MSVC
 This is Window's compiler, I've found it very cumbersome and would much rather use a more familiar tool like `clang` or `gcc`
 but I'm doing this to become more familiar with Windows so gotta suffer.
 Here's how to setup the compiler from CLI without the installing the complet Visual Studio bloatware:
-    * https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170
+    *https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170
 Then you'll need to open VSCode from the `Developer Powershell/CMD...` terminal it installs. 
