@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Bat",
+            "type": "shell",
+            "group": "build",
+            "command": "./build.bat",
+            "detail": "Task calls build.bat"
+        },
+        {
+            "label": "Run thing",
+            "type": "shell",
+            "dependsOn": "Run exec",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "command": "./bin./blanky.exe",
+            "detail": "Task launches the executable"
+        },
+    ]
+}
