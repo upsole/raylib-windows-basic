@@ -9,7 +9,7 @@
             "detail": "Task calls build.bat"
         },
         {
-            "label": "Run thing",
+            "label": "Run build",
             "type": "shell",
             "dependsOn": "Run exec",
             "group": {

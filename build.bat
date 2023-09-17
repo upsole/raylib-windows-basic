@@ -1,8 +1,8 @@
 @echo off
 if not exist .\\bin mkdir .\\bin
 set exe-name=blanky.exe
-set cflags=/W3 /WX 
-set sources=main.cpp
+set cflags=/W3 /WX /std:c11
+set sources=main.c
 set headers="%USERPROFILE%/vcpkg/installed/x64-windows/include"
 set raylib-path="%USERPROFILE%/vcpkg/installed/x64-windows/lib/raylib.lib"
 set raylib-dll-path="%USERPROFILE%\vcpkg\installed\x64-windows\bin\raylib.dll"
